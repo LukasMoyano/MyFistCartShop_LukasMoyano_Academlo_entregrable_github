@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Lable Tab Name Show -->
+    <title>Lukas Site Shop</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--icon tab win-->
+
+    <link rel="icon" href="https://fav.farm/🌶">
+
+    <!--Archivo una hoja de estilos CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!--Archivo JS-->
+    <script src="assets/js/main.js" type="model" defer></script>
+</head>
+
+<body>
+    <div class="area"></div>
+    <!-- Loader -->
+    <div class="loader loader--hidden">
+        <div class="loader__container">
+        </div>
+    </div>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="/" class="nav__logo">
+                <!--insercion de logo-->
+                <img src="assets/Anagama_lks001.jpg" alt="Anagama_lks001.jpg">
+                    <path fill="currentColor"
+                        d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
+                    </path>
+                </svg>
+            </a>
+            <div class="nav__menu">
+                <button type="button" class="nav__btn btn--close">
+                    <i class='bx bx-x'></i>
+                </button>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link"> Inicio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link"> Productos</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav__buttons">
+                <button type="button" class="nav__btn btn__cart">
+                    <i class='bx bxs-cart-alt'></i>
+                    <span class="notify">0</span>
+                </button>
+                <button type="button" class="nav__btn btn__menu">
+                    <i class='bx bxs-grid-alt'></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="=main">
+        <section class="products section">
+            <h2 class="products__title. section--title">BIODUSTRIAL</h2>
+            <div class="products__container container">
+                <article class="product">
+                    <div class="product__img">
+                        <img src="/imgs_shop_/BIODUSTRIAL/d260a6238528aef6658ae40c5057bf88_cloakMale-backWide_160x.webp"
+                            alt="BIODUSTRIAL">
+                    </div>
+                    <div class="product__content">
+                        <button type="button" class="product__btn add--to--cart">
+                            <i class='cart-add' animation='tada'></i>
+                        </button>
+                        <span class="product__price">$45</span>
+                        <span class="product__stock">Disponible: 5</span>
+                        <h3 class="product__title">Capa BioIndustrial Larga</h3>
+                        <p class="product__description">Manata tipo cubre todo con diseños surtidos</p>
+                    </div>
+                </article>
+        </section>
+
+<!-- Cart -->
+<div class="cart">
+    <div class="cart__container">
+        <div class="cart__header">
+            <h3 class="cart__title">Carrito de compras</h3>
+            <button type="button" class="cart__btn btn--close">
+                <i class='bx bx-x'></i>
+            </button>
+        </div>
+        <div class="cart__body">       
+            <article class="article">
+                <div class="article__image">
+                    <img src="/imgs_shop_/BIODUSTRIAL/d260a6238528aef6658ae40c5057bf88_cloakMale-backWide_160x.webp" alt="Products 1">
+                </div>
+                <div class="article__content">
+    <h3 class="article__title">Capa BioIndustrial Larga</h3>
+    <span class="article__price">$45</span>
+    <button type="button" class="article__btn btn--remove-from-cart">
+        <i class='bx bx-trash'></i>
+    </button>
+    <div class="article__quantity">
+        <button type="button" class="article__btn btn--delete">
+            <i class='bx bx-minus'></i>
+        </button>
+        <span class="article__quantity-text">1</span>
+        <button type="button" class="article__btn article--plus">
+            <i class='bx bx-plus'></i>
+        </button>
+    </div>
+</div>
+
+            </article>  
+        </div>
+        <div class="cart__footer">
+            <div class="cart__buttons">
+                <button type="button" class="cart__empty--btn">Seguir comprando</button>
+                <button type="button" class="cart__btn--buy">Comprar</button>
+            </div>
+            <div class="cart__summary">
+                <div class="cart_count">
+                    <span class="cart__count--text">Artículos</span>
+                    <span class="cart__count--item">0</span>
+                </div>
+                <div class="cart__total">
+                    <span class="cart__total--text">TOTAL</span>
+                    <span class="cart__total--item">$0</span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+    <!-- Footer -->
+    <footer class="footer section">
+        <div class="footer__container container">
+                <div class="footer__top"></div>
+                <div class="footer__left"></div>
+                <h3 class="footer__title">Maestro Lukas Moyano</h3>
+                <p class="footer__text">¿Estás buscando una presencia en línea impactante que haga crecer tu negocio?
+                    ¡No busques más! Con nuestros servicios de creación de páginas web, e-commerce y toda una carrera en
+                    Artes Visuales, podemos ofrecerte soluciones únicas y atractivas para tu empresa, sin importar dónde
+                    te encuentres en el mundo. Nuestro enfoque claro, contundente y eficiente se traduce en la creación
+                    de páginas web modernas, funcionales y personalizadas que capturan la esencia de tu marca y generan
+                    una experiencia de usuario excepcional.</p>
+        </div>
+        <div class ="footer__right">
+                    <h3 class="footer__text">Desde el diseño de interfaces cautivadoras hasta la optimización para motores de
+                    búsqueda, cada aspecto se cuida con precisión y atención al detalle. Con nuestros servicios, no solo
+                    obtendrás un sitio web de alto rendimiento, sino también una herramienta poderosa para impulsar las
+                    ventas y alcanzar el éxito en el competitivo mundo en línea.</p>
+        </div>
+        <p class="footer__text">¡Permítenos llevar tu negocio al siguiente nivel digital!</p>
+        <p class="footer__quote">"Hacemos lo que queremos, porque amamos lo que hacemos"</p>
+    </div>
+            <div class="footer__right">
+                <h3 class="footer__title">Contacto</h3>
+                <div class="footer__content">
+                    <i class='bx bx-phone'></i>
+                    <span>+57 319 791-9742</span>
+                </div>
+                <div class="footer__content">
+                    <i class='bx bx-envelope'></i>
+                    <span>lukasmoyanomorales@gmail.com</span>
+                </div>
+                <div class="footer__right">
+                    <h3 class="footer__title">Redes Sociales</h3>   
+                    <ul class="footer_social">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">
+                                <box-icon name='linkedin' type='logo' animation='flashing' ></box-icon>
+                                <box-icon name='github' type='logo' animation='flashing' ></box-icon>
+                            </a>
+                    </ul>
+                </div>
+                <div class="footer__bottom">
+                    <p class="footer__copy">&#169; 2023 - Todos los derechos reservados | Diseñado por Lukas Moyano</p>
+        </footer>
+                </div>
+</main>
+</body>
+</html>
