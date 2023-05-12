@@ -21,10 +21,10 @@
     <link rel="icon" href="https://fav.farm/🌶">
 
     <!--Archivo una hoja de estilos CSS-->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="style.css">
     
     <!--Archivo JS-->
-    <script src="assets/js/main.js" type="model" defer></script>
+    <script src="main.js" type="model" defer></script>
 </head>
 
 <body>
@@ -34,12 +34,17 @@
         <div class="loader__container">
         </div>
     </div>
+
+<header class="PageHeader">
+    <div class=SectionHeader .SectionHeader--center></divclass>
+        <h1 class="SuperHeader u-h1">Lukas Site Shop</h1>
+
     <!-- Header -->
     <header class="header">
         <nav class="nav container">
             <a href="/" class="nav__logo">
                 <!--insercion de logo-->
-                <img src="assets/Anagama_lks001.jpg" alt="Anagama_lks001.jpg">
+                <img src="/Anagama_lks001.jpg" alt="Anagama_lks001.jpg">
                     <path fill="currentColor"
                         d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
                     </path>
@@ -70,29 +75,55 @@
         </nav>
     </header>
 
-    <!-- Main -->
-    <main class="=main">
-        <section class="products section">
-            <h2 class="products__title. section--title">BIODUSTRIAL</h2>
-            <div class="products__container container">
-                <article class="product">
-                    <div class="product__img">
-                        <img src="/imgs_shop_/BIODUSTRIAL/d260a6238528aef6658ae40c5057bf88_cloakMale-backWide_160x.webp"
-                            alt="BIODUSTRIAL">
-                    </div>
-                    <div class="product__content">
-                        <button type="button" class="product__btn add--to--cart">
-                            <i class='cart-add' animation='tada'></i>
-                        </button>
-                        <span class="product__price">$45</span>
-                        <span class="product__stock">Disponible: 5</span>
-                        <h3 class="product__title">Capa BioIndustrial Larga</h3>
-                        <p class="product__description">Manata tipo cubre todo con diseños surtidos</p>
-                    </div>
-                </article>
-        </section>
 
-<!-- Cart -->
+
+
+    <header class="header">
+        <nav class="nav container">
+            <a href="/" class="nav__logo">
+                <img src="/Anagama_lks001.jpg" alt="Logo">
+            </a>
+            <div class="nav__menu">
+                <button type="button" class="nav__btn btn--close">
+                    <i class="bx bx-x"></i>
+                </button>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Inicio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Productos</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Nosotros</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav__buttons">
+                <button type="button" class="nav__btn btn__cart">
+                    <i class="bx bxs-cart-alt"></i>
+                    <span class="notify">0</span>
+                </button>
+                <button type="button" class="nav__btn btn__menu">
+                    <i class="bx bxs-grid-alt"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+    
+    <main class="main">
+        <section class="products section">
+            <h2 class="products__title section--title">Ropa y Accesorios de moda para personas Geeks</h2>
+            <!-- Resto del contenido de la sección de productos -->
+        </section>
+    </main>
+    
+
+
+<!-- Cart3 -->
 <div class="cart">
     <div class="cart__container">
         <div class="cart__header">
@@ -104,11 +135,11 @@
         <div class="cart__body">       
             <article class="article">
                 <div class="article__image">
-                    <img src="/imgs_shop_/BIODUSTRIAL/d260a6238528aef6658ae40c5057bf88_cloakMale-backWide_160x.webp" alt="Products 1">
+                    <img src="7673421860fb1ed48eb768c502c6f3fb_cloakNeutral-right_700x.webp" alt="Products 1">
                 </div>
                 <div class="article__content">
-    <h3 class="article__title">Capa BioIndustrial Larga</h3>
-    <span class="article__price">$45</span>
+    <h3 class="article__title">Cloak Neutral Back Wide</h3>
+    <span class="article__price">$25</span>
     <button type="button" class="article__btn btn--remove-from-cart">
         <i class='bx bx-trash'></i>
     </button>
@@ -116,13 +147,12 @@
         <button type="button" class="article__btn btn--delete">
             <i class='bx bx-minus'></i>
         </button>
-        <span class="article__quantity-text">1</span>
+        <span class="article__quantity-text">50</span>
         <button type="button" class="article__btn article--plus">
             <i class='bx bx-plus'></i>
         </button>
     </div>
 </div>
-
             </article>  
         </div>
         <div class="cart__footer">
@@ -145,7 +175,371 @@
     </div>
 </div>
 
-    <!-- Footer -->
+
+
+<!-- Cart1 -->
+<div class="cart">
+    <div class="cart__container">
+        <div class="cart__header">
+            <h3 class="cart__title">Carrito de compras</h3>
+            <button type="button" class="cart__btn btn--close">
+                <i class='bx bx-x'></i>
+            </button>
+        </div>
+        <div class="cart__body">       
+            <article class="article">
+                <div class="article__image">
+                    <img src="d260a6238528aef6658ae40c5057bf88_cloakMale-backWide_160x.webp" alt="Products 1">
+                </div>
+                <div class="article__content">
+    <h3 class="article__title">Capa BioIndustrial Larga</h3>
+    <span class="article__price">$45</span>
+    <button type="button" class="article__btn btn--remove-from-cart">
+        <i class='bx bx-trash'></i>
+    </button>
+    <div class="article__quantity">
+        <button type="button" class="article__btn btn--delete">
+            <i class='bx bx-minus'></i>
+        </button>
+        <span class="article__quantity-text">1</span>
+        <button type="button" class="article__btn article--plus">
+            <i class='bx bx-plus'></i>
+        </button>
+    </div>
+</div>
+            </article>  
+        </div>
+        <div class="cart__footer">
+            <div class="cart__buttons">
+                <button type="button" class="cart__empty--btn">Seguir comprando</button>
+                <button type="button" class="cart__btn--buy">Comprar</button>
+            </div>
+            <div class="cart__summary">
+                <div class="cart_count">
+                    <span class="cart__count--text">Artículos</span>
+                    <span class="cart__count--item">0</span>
+                </div>
+                <div class="cart__total">
+                    <span class="cart__total--text">TOTAL</span>
+                    <span class="cart__total--item">$0</span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<!-- Cart2 -->
+<div class="cart">
+    <div class="cart__container">
+        <div class="cart__header">
+            <h3 class="cart__title">Carrito de compras</h3>
+            <button type="button" class="cart__btn btn--close">
+                <i class='bx bx-x'></i>
+            </button>
+        </div>
+        <div class="cart__body">       
+            <article class="article">
+                <div class="article__image">
+                    <img src="CYBERCRIME NET ALPHA TEE001.webp" alt="Products 1">
+                </div>
+                <div class="article__content">
+    <h3 class="article__title">Cybercrime Net Alpha Tee</h3>
+    <span class="article__price">$25</span>
+    <button type="button" class="article__btn btn--remove-from-cart">
+        <i class='bx bx-trash'></i>
+    </button>
+    <div class="article__quantity">
+        <button type="button" class="article__btn btn--delete">
+            <i class='bx bx-minus'></i>
+        </button>
+        <span class="article__quantity-text">50</span>
+        <button type="button" class="article__btn article--plus">
+            <i class='bx bx-plus'></i>
+        </button>
+    </div>
+</div>
+            </article>  
+        </div>
+        <div class="cart__footer">
+            <div class="cart__buttons">
+                <button type="button" class="cart__empty--btn">Seguir comprando</button>
+                <button type="button" class="cart__btn--buy">Comprar</button>
+            </div>
+            <div class="cart__summary">
+                <div class="cart_count">
+                    <span class="cart__count--text">Artículos</span>
+                    <span class="cart__count--item">0</span>
+                </div>
+                <div class="cart__total">
+                    <span class="cart__total--text">TOTAL</span>
+                    <span class="cart__total--item">$0</span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<!-- Cart4-->
+<div class="cart">
+    <div class="cart__container">
+        <div class="cart__header">
+            <h3 class="cart__title">Carrito de compras</h3>
+            <button type="button" class="cart__btn btn--close">
+                <i class='bx bx-x'></i>
+            </button>
+        </div>
+        <div class="cart__body">       
+            <article class="article">
+                <div class="article__image">
+                    <img src="    GAME OVER ALPHA TEE001.webp" alt="Products 1">
+                </div>
+                <div class="article__content">
+    <h3 class="article__title">Game Over Alpha Tee </h3>
+    <span class="article__price">$25</span>
+    <button type="button" class="article__btn btn--remove-from-cart">
+        <i class='bx bx-trash'></i>
+    </button>
+    <div class="article__quantity">
+        <button type="button" class="article__btn btn--delete">
+            <i class='bx bx-minus'></i>
+        </button>
+        <span class="article__quantity-text">50</span>
+        <button type="button" class="article__btn article--plus">
+            <i class='bx bx-plus'></i>
+        </button>
+    </div>
+</div>
+            </article>  
+        </div>
+        <div class="cart__footer">
+            <div class="cart__buttons">
+                <button type="button" class="cart__empty--btn">Seguir comprando</button>
+                <button type="button" class="cart__btn--buy">Comprar</button>
+            </div>
+            <div class="cart__summary">
+                <div class="cart_count">
+                    <span class="cart__count--text">Artículos</span>
+                    <span class="cart__count--item">0</span>
+                </div>
+                <div class="cart__total">
+                    <span class="cart__total--text">TOTAL</span>
+                    <span class="cart__total--item">$0</span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<!-- Cart5-->
+<div class="cart">
+    <div class="cart__container">
+        <div class="cart__header">
+            <h3 class="cart__title">Carrito de compras</h3>
+            <button type="button" class="cart__btn btn--close">
+                <i class='bx bx-x'></i>
+            </button>
+        </div>
+        <div class="cart__body">       
+            <article class="article">
+                <div class="article__image">
+                    <img src="MSDOX ALPHA TEE001.webp" alt="Products 1">
+                </div>
+                <div class="article__content">
+    <h3 class="article__title">MSDOX Alpha Tee</h3>
+    <span class="article__price">$25</span>
+    <button type="button" class="article__btn btn--remove-from-cart">
+        <i class='bx bx-trash'></i>
+    </button>
+    <div class="article__quantity">
+        <button type="button" class="article__btn btn--delete">
+            <i class='bx bx-minus'></i>
+        </button>
+        <span class="article__quantity-text">50</span>
+        <button type="button" class="article__btn article--plus">
+            <i class='bx bx-plus'></i>
+        </button>
+    </div>
+</div>
+            </article>  
+        </div>
+        <div class="cart__footer">
+            <div class="cart__buttons">
+                <button type="button" class="cart__empty--btn">Seguir comprando</button>
+                <button type="button" class="cart__btn--buy">Comprar</button>
+            </div>
+            <div class="cart__summary">
+                <div class="cart_count">
+                    <span class="cart__count--text">Artículos</span>
+                    <span class="cart__count--item">0</span>
+                </div>
+                <div class="cart__total">
+                    <span class="cart__total--text">TOTAL</span>
+                    <span class="cart__total--item">$0</span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<!-- Cart6-->
+<div class="cart">
+    <div class="cart__container">
+        <div class="cart__header">
+            <h3 class="cart__title">Carrito de compras</h3>
+            <button type="button" class="cart__btn btn--close">
+                <i class='bx bx-x'></i>
+            </button>
+        </div>
+        <div class="cart__body">       
+            <article class="article">
+                <div class="article__image">
+                    <img src="PR0N ALPHA TEE001.webp" alt="Products 1">
+                </div>
+                <div class="article__content">
+    <h3 class="article__title">Pr0n Alpha Tee</h3>
+    <span class="article__price">$55</span>
+    <button type="button" class="article__btn btn--remove-from-cart">
+        <i class='bx bx-trash'></i>
+    </button>
+    <div class="article__quantity">
+        <button type="button" class="article__btn btn--delete">
+            <i class='bx bx-minus'></i>
+        </button>
+        <span class="article__quantity-text">50</span>
+        <button type="button" class="article__btn article--plus">
+            <i class='bx bx-plus'></i>
+        </button>
+    </div>
+</div>
+            </article>  
+        </div>
+        <div class="cart__footer">
+            <div class="cart__buttons">
+                <button type="button" class="cart__empty--btn">Seguir comprando</button>
+                <button type="button" class="cart__btn--buy">Comprar</button>
+            </div>
+            <div class="cart__summary">
+                <div class="cart_count">
+                    <span class="cart__count--text">Artículos</span>
+                    <span class="cart__count--item">0</span>
+                </div>
+                <div class="cart__total">
+                    <span class="cart__total--text">TOTAL</span>
+                    <span class="cart__total--item">$0</span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<!-- Cart7-->
+<div class="cart">
+    <div class="cart__container">
+        <div class="cart__header">
+            <h3 class="cart__title">Carrito de compras</h3>
+            <button type="button" class="cart__btn btn--close">
+                <i class='bx bx-x'></i>
+            </button>
+        </div>
+        <div class="cart__body">       
+            <article class="article">
+                <div class="article__image">
+                    <img src="    UNABLE TO CONNECT ALPHA TEE001.webp" alt="Products 1">
+                </div>
+                <div class="article__content">
+    <h3 class="article__title">Unable To Connect Alpha Tee</h3>
+    <span class="article__price">$25</span>
+    <button type="button" class="article__btn btn--remove-from-cart">
+        <i class='bx bx-trash'></i>
+    </button>
+    <div class="article__quantity">
+        <button type="button" class="article__btn btn--delete">
+            <i class='bx bx-minus'></i>
+        </button>
+        <span class="article__quantity-text">50</span>
+        <button type="button" class="article__btn article--plus">
+            <i class='bx bx-plus'></i>
+        </button>
+    </div>
+</div>
+            </article>  
+        </div>
+        <div class="cart__footer">
+            <div class="cart__buttons">
+                <button type="button" class="cart__empty--btn">Seguir comprando</button>
+                <button type="button" class="cart__btn--buy">Comprar</button>
+            </div>
+            <div class="cart__summary">
+                <div class="cart_count">
+                    <span class="cart__count--text">Artículos</span>
+                    <span class="cart__count--item">0</span>
+                </div>
+                <div class="cart__total">
+                    <span class="cart__total--text">TOTAL</span>
+                    <span class="cart__total--item">$0</span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<!-- Cart8-->
+<div class="cart">
+    <div class="cart__container">
+        <div class="cart__header">
+            <h3 class="cart__title">Carrito de compras</h3>
+            <button type="button" class="cart__btn btn--close">
+                <i class='bx bx-x'></i>
+            </button>
+        </div>
+        <div class="cart__body">       
+            <article class="article">
+                <div class="article__image">
+                    <img src="    unisex-basic-softstyle-t-shirt-black-front-60a609595c4bf_1000x1000.webp" alt="Products 1">
+                </div>
+                <div class="article__content">
+    <h3 class="article__title">Unisex Basic Softstyle T Shirt Black</h3>
+    <span class="article__price">$25</span>
+    <button type="button" class="article__btn btn--remove-from-cart">
+        <i class='bx bx-trash'></i>
+    </button>
+    <div class="article__quantity">
+        <button type="button" class="article__btn btn--delete">
+            <i class='bx bx-minus'></i>
+        </button>
+        <span class="article__quantity-text">50</span>
+        <button type="button" class="article__btn article--plus">
+            <i class='bx bx-plus'></i>
+        </button>
+    </div>
+</div>
+            </article>  
+        </div>
+        <div class="cart__footer">
+            <div class="cart__buttons">
+                <button type="button" class="cart__empty--btn">Seguir comprando</button>
+                <button type="button" class="cart__btn--buy">Comprar</button>
+            </div>
+            <div class="cart__summary">
+                <div class="cart_count">
+                    <span class="cart__count--text">Artículos</span>
+                    <span class="cart__count--item">0</span>
+                </div>
+                <div class="cart__total">
+                    <span class="cart__total--text">TOTAL</span>
+                    <span class="cart__total--item">$0</span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+<!-- Footer -->
     <footer class="footer section">
         <div class="footer__container container">
                 <div class="footer__top"></div>
@@ -164,8 +558,11 @@
                     obtendrás un sitio web de alto rendimiento, sino también una herramienta poderosa para impulsar las
                     ventas y alcanzar el éxito en el competitivo mundo en línea.</p>
         </div>
-        <p class="footer__text">¡Permítenos llevar tu negocio al siguiente nivel digital!</p>
-        <p class="footer__quote">"Hacemos lo que queremos, porque amamos lo que hacemos"</p>
+        <footer class="footer section">
+            <div class="footer__container container">
+                <p class="footer__text highlight">¡Permítenos llevar tu negocio al siguiente nivel digital!</p>
+                <p class="footer__quote highlight">"Hacemos lo que queremos, porque amamos lo que hacemos"</p>
+            </div>
     </div>
             <div class="footer__right">
                 <h3 class="footer__title">Contacto</h3>
